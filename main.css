@@ -1,0 +1,40 @@
+.content {
+    border: 10px black;
+}
+.mainCalc {
+    display: flex;
+    flex-wrap: wrap;
+    border-width: 5px;
+    border-color: black;
+    justify-content: space-around;
+    width: 400px;
+    padding: 5px;
+    flex: 1 1 auto;
+}   
+
+.button {
+    display: flex;
+    background-color: cadetblue;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-content: center;
+    flex: 1 1 auto;
+    align-items: center;
+}
+
+#results {
+    width: 300px;
+    height: 100px;
+}
+
+.number.operation.output {
+    display: flex;
+    background-color: cadetblue;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-content: center;
+    flex: 1 1 auto;
+    align-items: center;
+}
