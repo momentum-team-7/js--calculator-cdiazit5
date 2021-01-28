@@ -23,9 +23,13 @@
     align-items: center;
 } */
 
-#results {
+.output {
     width: 300px;
     height: 100px;
+    justify-content: center;
+    align-content: center;
+    background-color: cornsilk;
+
 }
 
 button {
@@ -37,4 +41,9 @@ button {
     align-content: center;
     flex: 1 1 auto;
     align-items: center;
+}
+
+.#clear {
+    width: 100px;
+
 }
